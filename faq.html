@@ -24,11 +24,25 @@
 
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="faq.html">FAQ</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -48,43 +62,97 @@
 
             <h2 class="text-center mb-5">Frequently Asked Questions</h2>
 
-            <div class="mb-4">
-                <h4>What services does TechHaven provide?</h4>
-                <p>
-                    We offer website development, IT support,
-                    cybersecurity solutions and cloud services.
-                </p>
-            </div>
+            <div class="accordion" id="faqAccordion">
 
-            <div class="mb-4">
-                <h4>Do you provide technical support?</h4>
-                <p>
-                    Yes. Our support team assists clients with
-                    troubleshooting and system maintenance.
-                </p>
-            </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq1">
+                            What services does TechHaven provide?
+                        </button>
+                    </h2>
 
-            <div class="mb-4">
-                <h4>Can you build custom websites?</h4>
-                <p>
-                    Yes. We create responsive and customized
-                    websites for businesses of different sizes.
-                </p>
-            </div>
+                    <div id="faq1" class="accordion-collapse collapse show"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We offer website development, IT support,
+                            cybersecurity solutions and cloud services.
+                        </div>
+                    </div>
+                </div>
 
-            <div class="mb-4">
-                <h4>How can I contact TechHaven?</h4>
-                <p>
-                    You can visit our Contact page and send us
-                    a message using the contact form.
-                </p>
-            </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq2">
+                            Do you provide technical support?
+                        </button>
+                    </h2>
 
-            <div class="mb-4">
-                <h4>Where is TechHaven located?</h4>
-                <p>
-                    Our offices are located in Nairobi, Kenya.
-                </p>
+                    <div id="faq2" class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes. Our support team assists clients with
+                            troubleshooting and system maintenance.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq3">
+                            Can you build custom websites?
+                        </button>
+                    </h2>
+
+                    <div id="faq3" class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes. We create responsive and customized
+                            websites for businesses of different sizes.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq4">
+                            How can I contact TechHaven?
+                        </button>
+                    </h2>
+
+                    <div id="faq4" class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            You can visit our Contact page and send us a
+                            message using the contact form.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#faq5">
+                            Where is TechHaven located?
+                        </button>
+                    </h2>
+
+                    <div id="faq5" class="accordion-collapse collapse"
+                        data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our offices are located in Nairobi, Kenya.
+                        </div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
