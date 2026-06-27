@@ -27,4 +27,26 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// FAQ Search Function
+const faqSearch = document.getElementById("faqSearch");
+
+if (faqSearch) {
+    faqSearch.addEventListener("keyup", function () {
+        const filter = this.value.toLowerCase();
+
+        const items = document.querySelectorAll(".accordion-item");
+
+        items.forEach(function (item) {
+            const question = item.querySelector(".accordion-button").textContent.toLowerCase();
+            const answer = item.querySelector(".accordion-body").textContent.toLowerCase();
+
+            if (question.includes(filter) || answer.includes(filter)) {
+                item.style.display = "";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    });
+}
+
 console.log('TechHaven website loaded successfully!');
