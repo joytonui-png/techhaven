@@ -1,53 +1,62 @@
 # TechHaven - Technology Solutions Platform
 
-A fully responsive multi-page website developed for a fictional technology company, showcasing modern IT services and professional web design.
+A fully responsive multi-page website developed for a fictional technology company, showcasing modern IT services through a clean, professional, and user-friendly web design.
 
 ---
 
 ## Project Overview
 
-TechHaven is a responsive website built using HTML5, CSS3, JavaScript, and Bootstrap 5. The project demonstrates front-end web development skills by creating a professional company website with multiple interconnected pages, responsive layouts, and interactive features.
+TechHaven is a responsive website built using HTML5, CSS3, JavaScript, and Bootstrap 5. The project demonstrates front-end web development skills by creating a professional company website with multiple interconnected pages, responsive layouts, interactive features, and a modern user interface.
 
 ---
 
 ## Features
 
-- Responsive design using Bootstrap 5
-- Dark mode toggle
-- Interactive FAQ search
-- Contact form validation
-- Professional navigation bar
-- Responsive image galleries
-- Hover animations on cards
-- Mobile-friendly layout
-- Multi-page website structure
+* Fully responsive design using Bootstrap 5
+* Modern and professional user interface
+* Multi-page website with seamless navigation
+* Dark mode toggle with localStorage support
+* Contact form validation using JavaScript
+* Interactive FAQ live search
+* Responsive hero banners and professional imagery
+* Hover animations and interactive cards
+* Mobile-friendly layout
+* Consistent styling across all pages
 
 ---
 
 ## Website Pages
 
-- 🏠 Home
-- ℹ️ About
-- 💼 Services
-- 🖼️ Portfolio
-- 💻 Careers
-- 📞 Contact
-- ❓ FAQ
+* 🏠 **Home** – Company introduction, statistics, testimonials, and call-to-action.
+* ℹ️ **About** – Company background, mission, vision, values, and team information.
+* 💼 **Services** – Overview of the technology solutions offered by TechHaven.
+* 🖼️ **Portfolio** – Showcase of completed projects with professional images and descriptions.
+* 💻 **Careers** – Current job opportunities and information about working at TechHaven.
+* 📞 **Contact** – Contact form with JavaScript validation.
+* ❓ **FAQ** – Frequently Asked Questions with a live search feature.
 
 ---
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Bootstrap 5
+* HTML5
+* CSS3
+* JavaScript (ES6)
+* Bootstrap 5
+
+---
+
+## JavaScript Features
+
+* Dark Mode Toggle with localStorage
+* Contact Form Validation
+* FAQ Live Search Filter
 
 ---
 
 ## Project Structure
 
-```
+```text
 techhaven/
 │
 ├── index.html
@@ -72,28 +81,35 @@ techhaven/
 
 ---
 
-## Website Features
+## Page Highlights
 
 ### Home
-Introduces TechHaven and highlights the company's services, achievements, and customer testimonials.
+
+Introduces TechHaven with a professional hero banner, company overview, statistics, client testimonials, and a call-to-action.
 
 ### About
-Provides the company background, mission, vision, core values, and team information.
+
+Presents the company's background, mission, vision, core values, and team information.
 
 ### Services
-Displays the technology services offered, including Web Development, Cloud Computing, IT Support, and Cybersecurity.
+
+Highlights the technology solutions offered, including Web Development, Cloud Computing, IT Support, and Cybersecurity.
 
 ### Portfolio
-Showcases sample projects completed by TechHaven with professional images and descriptions.
+
+Showcases completed projects with images and descriptions demonstrating the company's expertise.
 
 ### Careers
-Highlights current job opportunities and encourages talented professionals to join the TechHaven team.
+
+Displays current employment opportunities and encourages talented professionals to join the TechHaven team.
 
 ### Contact
-Allows visitors to contact the company through a validated contact form.
+
+Provides a contact form with JavaScript validation to ensure all required fields are completed before submission.
 
 ### FAQ
-Provides answers to common customer questions with a live search feature.
+
+Allows users to browse common questions and quickly locate answers using the live search feature.
 
 ---
 
@@ -101,17 +117,19 @@ Provides answers to common customer questions with a live search feature.
 
 1. Clone or download the repository.
 2. Open the project folder.
-3. Launch `index.html` in your preferred web browser.
-4. No additional installation or build tools are required.
+3. Launch `index.html` in any modern web browser.
+4. No additional software or build tools are required.
 
 ---
 
 ## Developer
 
-Developed as part of a Web Application Development coursework project.
+Developed by **Joy Tonui** as part of a Web Application Development coursework project.
 
 ---
 
 ## License
 
-This project is created for educational purposes.
+This project was developed for educational purposes.
+
+© 2026 TechHaven. All rights reserved.
