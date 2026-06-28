@@ -18,123 +18,240 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container">
+
             <a class="navbar-brand" href="index.html">TechHaven</a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarNav">
+
                 <ul class="navbar-nav ms-auto">
 
-                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link active" href="careers.html">Careers</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="careers.html">Careers</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
 
-                    <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
 
                 </ul>
+
             </div>
+
         </div>
     </nav>
 
-    <!-- Header -->
-    <header class="hero bg-primary text-white text-center py-5">
-        <div class="container">
-            <h1 class="display-4">Careers at TechHaven</h1>
+    <!-- Hero Banner -->
+    <header class="hero text-white text-center">
+
+        <img src="assets/images/careers-banner.jpg"
+            class="img-fluid w-100"
+            style="height:420px; object-fit:cover; filter:brightness(55%);">
+
+        <div class="hero-content">
+            <h1 class="display-4 fw-bold">Join Our Team</h1>
+
             <p class="lead">
-                Join our team and help build innovative technology solutions.
+                Build your career with passionate innovators creating the future of technology.
             </p>
+
+            <a href="#jobs" class="btn btn-light btn-lg">
+                View Opportunities
+            </a>
+
         </div>
+
     </header>
 
-    <!-- Careers Section -->
-    <section class="py-5">
+    <!-- Job Opportunities -->
+
+    <section class="py-5" id="jobs">
+
         <div class="container">
 
-            <h2 class="text-center mb-5">Current Opportunities</h2>
+            <h2 class="text-center mb-5">
+                Current Opportunities
+            </h2>
 
             <div class="row">
 
-                <div class="col-md-4 mb-4">
-                    <div class="card shadow-sm h-100">
-                        <div class="card-body">
-                            <h4>Frontend Developer</h4>
-                            <p>
-                                Build responsive and user-friendly web
-                                applications using modern web technologies.
-                            </p>
-                        </div>
-                    </div>
-                </div>
+                <!-- Developer -->
 
                 <div class="col-md-4 mb-4">
+
                     <div class="card shadow-sm h-100">
+
+                        <img src="assets/images/software-developer.jpg"
+                            class="card-img-top"
+                            alt="Software Developer">
+
                         <div class="card-body">
-                            <h4>IT Support Technician</h4>
-                            <p>
-                                Provide technical support, troubleshoot
-                                hardware and software issues, and assist
-                                clients with daily IT needs.
+
+                            <h4 class="card-title">
+                                Frontend Developer
+                            </h4>
+
+                            <p class="card-text">
+                                Build responsive websites and web applications
+                                using HTML, CSS, JavaScript and Bootstrap.
                             </p>
+
+                            <a href="contact.html" class="btn btn-primary">
+                                Apply
+                            </a>
+
                         </div>
+
                     </div>
+
                 </div>
+
+                <!-- IT Support -->
 
                 <div class="col-md-4 mb-4">
+
                     <div class="card shadow-sm h-100">
+
+                        <img src="assets/images/it-support-career.jpg"
+                            class="card-img-top"
+                            alt="IT Support">
+
                         <div class="card-body">
-                            <h4>Cybersecurity Analyst</h4>
-                            <p>
-                                Monitor systems, identify vulnerabilities,
-                                and help protect client infrastructure from
-                                cyber threats.
+
+                            <h4 class="card-title">
+                                IT Support Technician
+                            </h4>
+
+                            <p class="card-text">
+                                Assist clients with troubleshooting hardware,
+                                software and network-related issues.
                             </p>
+
+                            <a href="contact.html" class="btn btn-primary">
+                                Apply
+                            </a>
+
                         </div>
+
                     </div>
+
                 </div>
 
-            </div>
+                <!-- Cybersecurity -->
 
-            <div class="text-center mt-5">
-                <h3>Why Work With Us?</h3>
+                <div class="col-md-4 mb-4">
 
-                <p>
-                    At TechHaven, we value innovation, teamwork and continuous
-                    learning. We provide a supportive environment where
-                    employees can grow their careers while working on exciting
-                    technology projects.
-                </p>
+                    <div class="card shadow-sm h-100">
 
-                <a href="contact.html" class="btn btn-primary">
-                    Apply Now
-                </a>
+                        <img src="assets/images/cybersecurity-career.jpg"
+                            class="card-img-top"
+                            alt="Cybersecurity">
+
+                        <div class="card-body">
+
+                            <h4 class="card-title">
+                                Cybersecurity Analyst
+                            </h4>
+
+                            <p class="card-text">
+                                Protect client systems by monitoring threats,
+                                conducting security assessments and improving
+                                cyber resilience.
+                            </p>
+
+                            <a href="contact.html" class="btn btn-primary">
+                                Apply
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
         </div>
+
+    </section>
+
+    <!-- Why Work With Us -->
+
+    <section class="bg-light py-5">
+
+        <div class="container text-center">
+
+            <h2 class="mb-4">
+                Why Work With TechHaven?
+            </h2>
+
+            <p class="lead">
+
+                We believe technology is built by talented people.
+                At TechHaven you'll work alongside experienced professionals,
+                gain hands-on experience, receive continuous learning
+                opportunities and contribute to exciting real-world projects.
+
+            </p>
+
+            <a href="contact.html" class="btn btn-primary btn-lg mt-3">
+                Apply Now
+            </a>
+
+        </div>
+
     </section>
 
     <!-- Footer -->
+
     <footer class="bg-dark text-white py-4">
+
         <div class="container text-center">
+
             <p>&copy; 2026 TechHaven. All rights reserved.</p>
-            <a href="contact.html" class="text-white">Contact Us</a> |
-            <a href="faq.html" class="text-white">FAQ</a>
+
+            <a href="contact.html" class="text-white">
+                Contact Us
+            </a>
+
+            |
+
+            <a href="faq.html" class="text-white">
+                FAQ
+            </a>
+
         </div>
+
     </footer>
 
     <!-- Bootstrap JS -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Custom JavaScript -->
+
     <script src="js/script.js"></script>
 
 </body>
